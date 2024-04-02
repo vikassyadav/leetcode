@@ -10,6 +10,8 @@ public class LongestCommonPrefix {
 
     /*this method takes more time because it is sorting the array 
     so TC=O(n * m * log(m))
+    
+    Refernce = https://www.youtube.com/watch?v=XX4ikVj6Bug
     */
     public static String longestCommonPrefix(String[] strs){
         if (strs == null || strs.length == 0) {
